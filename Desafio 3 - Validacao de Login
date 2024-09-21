@@ -1,0 +1,18 @@
+fun main() {  
+    var userName : String = "admin"  
+    var senha : String = "123"  
+
+    println("Digite o nome de usuario: ")  
+    userName=readLine()?.toString()?: "userName"  
+
+    println("Digite a senha: ")  
+    senha=readLine()?.toString()?: "senha"  
+
+    if (userName == "admin" && senha == "123"){  
+        println ("Login Perminitido.")  
+    } else{  
+        println ("Nome de usuario ou senha incorreto")  
+    }  
+}  
+
+ 
